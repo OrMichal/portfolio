@@ -154,6 +154,19 @@ body {
   box-shadow: 0 12px 25px rgba(0, 255, 200, 0.15);
 }
 
+.project-card .project-image {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 255, 200, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.project-card .project-image:hover {
+  transform: scale(1.02);
+}
+
+
 /* ===== FOOTER ===== */
 
 footer {
