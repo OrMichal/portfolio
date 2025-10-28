@@ -35,7 +35,7 @@
   }
 
   function OpenCV(): void {
-    const filepath: string = `../../../public/images/Orsah_cv_${get(locale)}.pdf`;
+    const filepath: string = `/images/Orsah_cv_${get(locale)}.pdf`;
     window.open(filepath, "_blank");
   }
 </script>

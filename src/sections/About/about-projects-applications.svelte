@@ -1,10 +1,8 @@
 <script lang="ts">
-  import { onMount } from "svelte";
   import DetailedProjectCard from "../../components/cards/detailed-project-card.svelte";
   import ContentSection from "../../elements/content-section.svelte";
   import Heading from "../../elements/Heading.svelte";
   import { t } from "svelte-i18n";
-  import { SlideObserver } from "../../lib/observers/slide-observer";
 </script>
 
 <section class="wrapper">
@@ -25,7 +23,7 @@
       linkLabel={$t(
         "sections.about.projects_and_applications.first_project.link_label",
       )}
-      imgPath={"../../../public/images/Odmaturuj.png"}
+      imgPath={"/public/images/Odmaturuj.png"}
     />
     <DetailedProjectCard
       heading={$t(
@@ -37,7 +35,7 @@
       linkLabel={$t(
         "sections.about.projects_and_applications.second_project.link_label",
       )}
-      imgPath={"../../../public/images/edugatto.png"}
+      imgPath={"/public/images/edugatto.png"}
     />
     <DetailedProjectCard
       heading={$t(
@@ -49,7 +47,7 @@
       linkLabel={$t(
         "sections.about.projects_and_applications.third_project.link_label",
       )}
-      imgPath={"../../../public/images/daizy.png"}
+      imgPath={"/public/images/daizy.png"}
     />
   </div>
 </section>
