@@ -1,0 +1,20 @@
+export type GitRepo = {
+  id: Number;
+  node_id: string;
+  name: string;
+  full_name: string;
+  private: boolean;
+  html_url: string;
+  description: string | null;
+  fork: boolean;
+  url: string;
+  git_url: string;
+  ssh_url: string;
+  clone_url: string;
+  svn_url: string;
+  updated_at: string;
+  pushed_at: string;
+  created_at: string;
+  language: string;
+  topics: string[];
+};

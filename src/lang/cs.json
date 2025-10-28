@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "t_name": "Michal Orsah",
+    "t_home": "Domů",
+    "t_about": "O mně",
+    "t_projects": "Projekty",
+    "t_cv": "Životopis"
+  },
+  "sections": {
+    "home": {
+      "hero_section": {
+        "t_heading": "Hledáte Fullstack nebo Frontend vývojáře?",
+        "t_desc": "Dál už nehledejte.",
+        "buttons": {
+          "t_download_cv": "Stáhnout životopis",
+          "t_learn_more": "Zjistit víc"
+        }
+      },
+      "hero_section_desc": {
+        "t_first_paragraph": "Jsem fullstack vývojář a student IT, který má rád moderní, efektivní a smysluplný software. Baví mě práce na všech úrovních vývoje — od navrhování krásných, responzivních frontendů až po psaní spolehlivých backendů a systémového kódu v Go, C, C++, C# a Rustu.",
+        "t_second_paragraph": "Ke každému projektu přistupuji s profesionálním přístupem – s důrazem na čistou architekturu, výkon a dlouhodobou udržitelnost. Programování pro mě není jen o psaní kódu, ale o řešení problémů, učení se novým věcem a posouvání technologií dál. Neustále hledám nové výzvy a příležitosti, jak se zlepšovat."
+      },
+      "projects": {
+        "t_heading": "některé z mých projektů",
+        "first_project": {
+          "heading": "Odmaturuj!",
+          "desc": "Aplikace, která pomáhá s přípravou na maturitu z českého jazyka."
+        },
+        "second_project": {
+          "heading": "Lingofish",
+          "desc": "Aplikace pro efektivnější a zábavnější učení jazyků."
+        },
+        "third_project": {
+          "heading": "Daisy z. s.",
+          "desc": "Webová stránka pro zvířecí útulek."
+        },
+        "show_more_b_label": "Zobrazit více"
+      },
+      "interest_navigation": {
+        "heading": "Co by vás mohlo zajímat",
+        "first_card": {
+          "heading": "Projekty",
+          "desc": "Podívejte se na mé hotové i rozpracované projekty.",
+          "link_label": "zobrazit více"
+        },
+        "second_card": {
+          "heading": "Životopis a zkušenosti",
+          "desc": "Mrkněte na moje pracovní zkušenosti nebo si stáhněte můj životopis.",
+          "link_label": "zobrazit více"
+        },
+        "third_card": {
+          "heading": "O mně",
+          "desc": "Zajímá vás, kdo vlastně jsem? Přečtěte si víc o mně.",
+          "link_label": "zobrazit více"
+        }
+      },
+      "tech_and_prog_langs": {
+        "heading": "Technologie a jazyky, které používám"
+      }
+    },
+    "about": {
+      "first_entry_paragraph": "Jsem student a vývojář, který se nejvíc zaměřuje na frontend technologie, ale mám i pevné základy v backendu a systémovém programování.",
+      "second_entry_paragraph": "Aktuálně prohlubuji zkušenosti s moderními frameworky jako React, Vue, Angular nebo Svelte.",
+      "what_might_interest": {
+        "heading": "Co by vás mohlo zajímat",
+        "first_card": {
+          "heading": "Programovací jazyky",
+          "desc": "Podívejte se, jaké jazyky používám a ovládám.",
+          "link_label": "zobrazit"
+        },
+        "second_card": {
+          "heading": "Tech stacky",
+          "desc": "Mrkněte na technologie, se kterými nejčastěji pracuji.",
+          "link_label": "zobrazit stacky"
+        },
+        "third_card": {
+          "heading": "Osobní info",
+          "desc": "Zajímá vás, jaký jsem člověk? Tady se o mně dozvíte víc.",
+          "link_label": "zjistit více"
+        }
+      },
+      "projects_and_applications": {
+        "heading": "Projekty a aplikace",
+        "description": "Tady najdete výběr mých projektů a aplikací — každý z nich pro mě znamenal příležitost naučit se něco nového a posunout se dál jako vývojář.",
+        "first_project": {
+          "heading": "Odmaturuj!",
+          "desc": "Aplikace pro přípravu na maturitu z českého jazyka.",
+          "link_label": "zobrazit více"
+        },
+        "second_project": {
+          "heading": "Edugatto",
+          "desc": "Školní aplikace pro evidenci studijních výsledků – známky, třídy, rozvrhy a další.",
+          "link_label": "zobrazit více"
+        },
+        "third_project": {
+          "heading": "Daisy z. s.",
+          "desc": "Web pro zvířecí útulek, který pomáhá potřebným zvířatům.",
+          "link_label": "zobrazit více"
+        }
+      },
+      "tech_stacks": {
+        "heading": "Tech stacky",
+        "description": "Přehled technologií a nástrojů, se kterými nejčastěji stavím moderní aplikace."
+      },
+      "technologies": {
+        "heading": "Technologie",
+        "description": "Výběr technologií, které běžně používám při vývoji."
+      },
+      "programming_languages": {
+        "heading": "Programovací jazyky",
+        "description": "Podívejte se, které jazyky už umím a které se zrovna učím.",
+        "currently_learning": "Momentálně se učím"
+      }
+    },
+    "projects": {
+      "first_entry_paragraph": "Prozkoumejte projekty a aplikace, které jsem zatím vytvořil — od webů až po malé knihovny pro práci s daty.",
+      "second_entry_paragraph": "Všechny projekty najdete také na mém GitHubu.",
+      "anchors": {
+        "link_label": "zobrazit"
+      },
+      "web_apps": "Webové aplikace",
+      "gui_apps": "Desktopové aplikace",
+      "tui_apps": "Konzolové aplikace",
+      "libs_apps": "Užitečné knihovny",
+      "warning_box": {
+        "heading": "Nepodařilo se načíst data o projektech",
+        "desc": "GitHub dočasně zablokoval požadavky z této IP adresy kvůli limitům. Nevadí — některé z mých projektů najdete níže."
+      },
+      "error_box": {
+        "heading": "Došlo k chybě při načítání dat z GitHubu",
+        "desc": ""
+      },
+      "git_project_card": {
+        "last_updated": "naposledy aktualizováno",
+        "created_at": "vytvořeno",
+        "main_programming_language": "hlavní jazyk",
+        "copy_ssh_path": "kopírovat SSH cestu",
+        "copy_git_path": "kopírovat Git cestu",
+        "copy_svn_path": "kopírovat SVN cestu",
+        "show_more": "zobrazit více"
+      }
+    },
+    "cv": {
+      "cv_section": {
+        "first_paragraph": "Díky, že jste se dostali až sem! Jste jen pár kliků od toho zjistit, proč jsem právě já Fullstack | Frontend vývojář, kterého hledáte. Stačí otevřít můj životopis níže.",
+        "second_paragraph": "Můžete se taky podívat na moje další schopnosti a zkušenosti.",
+        "download_cv": "Stáhnout životopis",
+        "print_cv": "Vytisknout životopis",
+        "open_cv": "Otevřít životopis"
+      },
+      "motivation": {
+        "heading": "Proč právě já?",
+        "desc": "Na trhu je spousta vývojářů — tak proč bych to měl být zrovna já?",
+        "paragraph": "Tady je pár důvodů, které mě podle mě odlišují.",
+        "reasons": [
+          {
+            "anchor": "#flexibility",
+            "heading": "Flexibilita",
+            "descs": [
+              "Rychle se přizpůsobím. Ať už jde o nový framework, změnu požadavků nebo práci s neznámou technologií, nemám problém se do toho pustit."
+            ]
+          },
+          {
+            "anchor": "#fast_learning",
+            "heading": "Rychlé učení",
+            "descs": [
+              "Učím se nové věci opravdu rychle a umím je hned použít v praxi. Neustále zkouším nové jazyky a technologie, abych držel krok s dobou a zjednodušil si práci do budoucna."
+            ]
+          },
+          {
+            "anchor": "#code_maintainability",
+            "heading": "Udržovatelný kód",
+            "descs": [
+              "Čistý a přehledný kód je základ. Píšu tak, aby se v kódu vyznal i někdo jiný a dal se snadno rozšiřovat. Dávám důraz na čitelnost, logiku a promyšlenou architekturu."
+            ]
+          },
+          {
+            "anchor": "#rapid_development",
+            "heading": "Rychlý vývoj",
+            "descs": [
+              "Používám moderní nástroje, které mi umožňují tvořit rychle a efektivně. Baví mě automatizovat rutinní úlohy, zlepšovat pracovní procesy a přetvářet nápady v realitu."
+            ]
+          }
+        ]
+      },
+      "contact": {
+        "heading": "Kontakt",
+        "desc": "Máte zájem o spolupráci nebo jen chcete napsat? Ozvěte se mi některou z možností níže."
+      }
+    }
+  },
+  "footer": {
+    "t_about_site_heading": "O této stránce",
+    "t_about_site_content": "Tento web jsem vytvořil pomocí Svelte frameworku a navrhl ve Figmě."
+  },
+  "snackbar": {
+    "language_changed": "Jazyk stránky byl úspěšně změněn",
+    "copied": "Cesta k projektu byla zkopírována.",
+    "cv_downloaded": "Bylo spuštěno stahování mého životopisu."
+  },
+  "404": {
+    "heading": "Stránka nenalezena",
+    "desc": "Vypadá to, že jste narazili na neexistující stránku. Klikněte níže pro návrat na hlavní stránku.",
+    "button_label": "Zpět domů"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "t_name": "Michal Orsah",
+    "t_home": "Home",
+    "t_about": "About",
+    "t_projects": "Projects",
+    "t_cv": "CV"
+  },
+  "sections": {
+    "home": {
+      "hero_section": {
+        "t_heading": "Looking for a Fullstack | Frontend developer?",
+        "t_desc": "Look no further",
+        "buttons": {
+          "t_download_cv": "Download CV",
+          "t_learn_more": "Learn more"
+        }
+      },
+      "hero_section_desc": {
+        "t_first_paragraph": "I’m a fullstack developer and IT student passionate about building modern, efficient, and meaningful software. I love exploring every layer of development — from crafting beautiful, responsive frontends to engineering reliable backends and low-level systems in Go, C, C++, C#, and Rust.",
+        "t_second_paragraph": "Even as a student, I approach every project with a professional mindset: I aim for clean architecture, strong performance, and long-term scalability.For me, programming isn’t just about writing code — it’s about solving real problems, learning continuously, and pushing technology forward.I’m always looking for opportunities to grow and learn something new."
+      },
+      "projects": {
+        "t_heading": "some of my projects",
+        "first_project": {
+          "heading": "Odmaturuj!",
+          "desc": "Application intended for easier preparation for high school graduation exam from Czech language."
+        },
+        "second_project": {
+          "heading": "Lingofish",
+          "desc": "Application for more efficient language learning experience."
+        },
+        "third_project": {
+          "heading": "Daisy z. s.",
+          "desc": "Website of an animal sanctuary."
+        },
+        "show_more_b_label": "Show more"
+      },
+      "interest_navigation": {
+        "heading": "What might interest you",
+        "first_card": {
+          "heading": "Projects",
+          "desc": "Take a look at my projects I have finished or projects I am still maintaining.",
+          "link_label": "show more"
+        },
+        "second_card": {
+          "heading": "CV & work experience",
+          "desc": "Look at my work experience. You can also download my CV here.",
+          "link_label": "show more"
+        },
+        "third_card": {
+          "heading": "About me",
+          "desc": "Take a quick look at detailed information about me.",
+          "link_label": "show more"
+        }
+      },
+      "tech_and_prog_langs": {
+        "heading": "Technologies & programming languages I use"
+      }
+    },
+    "about": {
+      "first_entry_paragraph": "I’m a passionate student developer focusing mainly on frontend technologies with a solid backend & system-level knowledge of programming.",
+      "second_entry_paragraph": "I’m focused on deepening my experience with modern frontend frameworks including React, Vue, Angular or Svelte.",
+      "what_might_interest": {
+        "heading": "What migh interest you",
+        "first_card": {
+          "heading": "Programming languages",
+          "desc": "Look at a list of programming languages I know.",
+          "link_label": "take a look"
+        },
+        "second_card": {
+          "heading": "Tech stacks",
+          "desc": "Preview tech stacks I often work with.",
+          "link_label": "preview stacks"
+        },
+        "third_card": {
+          "heading": "Personal details",
+          "desc": "Learn more about how I am as a person.",
+          "link_label": "learn more"
+        }
+      },
+      "projects_and_applications": {
+        "heading": "Projects & applications",
+        "description": "Here you can find a collection of projects and applications I’ve developed, each representing a step forward in my journey as a software developer and a chance to experiment with new tools, ideas, and technologies.",
+        "first_project": {
+          "heading": "Odmaturuj!",
+          "desc": "Application intended for easier preparation for high school graduation exam from Czech language.",
+          "link_label": "show more"
+        },
+        "second_project": {
+          "heading": "Edugatto",
+          "desc": "Application for schools to record their students achievements including every aspect you need from an application like this: student grades, classes, timetables etc..",
+          "link_label": "show more"
+        },
+        "third_project": {
+          "heading": "Daizy z. s.",
+          "desc": "Website of an animal sanctuary in need.",
+          "link_label": "show more"
+        }
+      },
+      "tech_stacks": {
+        "heading": "Tech stacks",
+        "description": "Here are some of tech stacks I often use to build modern applications."
+      },
+      "technologies": {
+        "heading": "Technologies",
+        "description": "Here are listed some technologies I work with."
+      },
+      "programming_languages": {
+        "heading": "Programming languages",
+        "description": "Take a loot at which programming languages I already know and which I am currently learning.",
+        "currently_learning": "Currently learning"
+      }
+    },
+    "projects": {
+      "first_entry_paragraph": "Explore the projects & applications I have built so far. Including all sorts of applications & useful libraries for data management.",
+      "second_entry_paragraph": "All of the projects & applications below are also on my github.",
+      "anchors": {
+        "link_label": "show"
+      },
+      "web_apps": "Web applications",
+      "gui_apps": "GUI applications",
+      "tui_apps": "TUI applications",
+      "libs_apps": "useful libraries",
+      "warning_box": {
+        "heading": "Could not get latest project data.",
+        "desc": "Github server CORS has blocked this I.P. address from receiving any more request responses for an hour, but do not worry you can take a look at some of my projects below."
+      },
+      "error_box": {
+        "heading": "Error occured while fetching github data",
+        "desc": ""
+      },
+      "git_project_card": {
+        "last_updated": "last updated",
+        "created_at": "created at",
+        "main_programming_language": "main programming language",
+        "copy_ssh_path": "copy ssh path",
+        "copy_git_path": "copy git path",
+        "copy_svn_path": "copy svn path",
+        "show_more": "show more"
+      }
+    },
+    "cv": {
+      "cv_section": {
+        "first_paragraph": "I'm glad you've come this far. You're only a few steps away from discovering why I'm the Fullstack | Frontend Developer you're looking for. Take a look at my CV using the buttons below.",
+        "second_paragraph": "You might be also interested in looking at my other qualities.",
+        "download_cv": "Download CV",
+        "print_cv": "Print CV",
+        "open_cv": "Open CV"
+      },
+      "motivation": {
+        "heading": "Why should you choose me?",
+        "desc": "There are many Fullstack | Frontend developer so why exactly me? ",
+        "paragraph": "Here are some of the main reasons why I am the one you are looking for.",
+        "reasons": [
+          {
+            "anchor": "#flexibility",
+            "heading": "Flexibility",
+            "descs": [
+              "One of my biggest pros is definitely flexibility. I am highly capable of adapting in my work. Wether it's learning a completely new framework, adjusting to project requirements, or exploring unfamiliar technologies."
+            ]
+          },
+          {
+            "anchor": "#fast_learning",
+            "heading": "Fast learning",
+            "descs": [
+              "I have a really strong ability to learn quickly and apply new knowledge efficiently. As a student, I am constantly exploring new programming languages or new technologies which will make my life easier in the future. This fast-learning mindset enables me to stay up-to-date with industry trends and rapidly take on new challanges."
+            ]
+          },
+          {
+            "anchor": "#code_maintainability",
+            "heading": "Code maintainability",
+            "descs": [
+              "Writing maintainable code is one of my top priorities when writing any application. I focus on creating clean, readable, and well organized code that can be easily understood and improved by others. By emphasizing best practices and thoughtful design, I ensure that my work not only functions correctly but also supports possible future application updates."
+            ]
+          },
+          {
+            "anchor": "#rapid_development",
+            "heading": "Rapid development",
+            "descs": [
+              "I also aim for rapid development using the best tools there are. In the past few months I have been coding a lot in technologies and frameworks which make rapid development more that possible and have a lot of the modern features out of the box. This quickly brings my ideas to life. I enjoy finding ways to optimize workflows, automate repetitive tasks, and implement solutions that are both functional and scalable."
+            ]
+          }
+        ]
+      },
+      "contact": {
+        "heading": "Contact",
+        "desc": "If you are interested in collaborating or working with me. Don't hesitate to contact me using some of the options below."
+      }
+    }
+  },
+  "footer": {
+    "t_about_site_heading": "About this website",
+    "t_about_site_content": "This website was developed using Svelte and designed in Figma."
+  },
+  "snackbar": {
+    "language_changed": "Language of the website has been successfully changed.",
+    "copied": "Path to the project has been copied.",
+    "cv_downloaded": "Download of my CV has started."
+  },
+  "404": {
+    "heading": "Invalid route detected",
+    "desc": "It seems like you tried to access route that does not exist. You can return to home page by clicking the button below.",
+    "button_label": "Return home"
+  }
+}

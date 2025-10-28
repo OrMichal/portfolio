@@ -1,0 +1,51 @@
+:root {
+  --primary-color: #8b13fd;
+  --secondary-color: #6f11f5;
+  --horizontal-gradient: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+
+  font-family: sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.slide-in {
+  animation: forwards slide 0.4s ease;
+}
+
+.slide-out {
+  animation: forwards slide-out 0.4s ease;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
