@@ -48,4 +48,14 @@
     width: 50%;
     object-fit: cover;
   }
+
+  @media screen and (max-width: 750px) {
+    .card {
+      flex-direction: column;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
 </style>

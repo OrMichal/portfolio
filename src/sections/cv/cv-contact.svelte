@@ -48,7 +48,12 @@
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  @media screen and (max-width: 470px) {
+    .container {
+      flex-direction: column;
+    }
   }
 </style>

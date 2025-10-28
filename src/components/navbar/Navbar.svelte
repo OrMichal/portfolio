@@ -79,7 +79,9 @@
         <HamburgerMenuLink callback={switchMenuState} href="/projects"
           >{$t("nav.t_projects")}</HamburgerMenuLink
         >
-        <HamburgerMenuLink href="/cv">{$t("nav.t_cv")}</HamburgerMenuLink>
+        <HamburgerMenuLink callback={switchMenuState} href="/cv"
+          >{$t("nav.t_cv")}</HamburgerMenuLink
+        >
       </div>
       <div class="soc-link-container">
         <Link
@@ -168,7 +170,7 @@
 
   .hamburger-menu {
     animation: hamburger-anim 0.3s forwards ease;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     z-index: 1000;
@@ -212,7 +214,7 @@
   }
 
   .glass {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100dvw;

@@ -15,6 +15,7 @@
 
 <style>
   .wrapper {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,6 +23,7 @@
   }
 
   .container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 50px;

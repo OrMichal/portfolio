@@ -30,7 +30,7 @@
   }
 
   .snackbar.info {
-    background: var(--horizontal-gradient);
+    background-color: #3f97fd;
     color: white;
   }
 

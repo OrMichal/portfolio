@@ -94,10 +94,10 @@
 
 <style>
   .card {
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 300px;
     gap: 20px;
     background-color: #f9f9fa;
 
@@ -135,7 +135,7 @@
   }
 
   .info-wrapper {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -144,7 +144,7 @@
   }
 
   .description {
-    width: 50%;
+    width: 100%;
   }
 
   @media screen and (max-width: 810px) {
@@ -158,6 +158,21 @@
       :global(& > *) {
         width: 100%;
       }
+    }
+  }
+
+  @media screen and (max-width: 620px) {
+    .header-wrapper {
+      flex-direction: column;
+    }
+
+    .main-wrapper {
+      flex-direction: column;
+      align-items: start;
+    }
+
+    .info-wrapper {
+      align-items: start;
     }
   }
 </style>

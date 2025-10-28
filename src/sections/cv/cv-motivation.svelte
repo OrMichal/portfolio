@@ -47,4 +47,19 @@
     flex-direction: row;
     gap: 40px;
   }
+
+  @media screen and (max-width: 720px) {
+    .reasons {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .reasons {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 </style>

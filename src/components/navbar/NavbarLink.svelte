@@ -1,12 +1,25 @@
 <script lang="ts">
+  import { onMount } from "svelte";
   import { selectedRoute } from "../../lib/stores/activeRoute";
 
   export let href: string;
   $: isACtive = $selectedRoute.selected === href;
+  let button: HTMLElement;
+
+  onMount(() => {
+    button.addEventListener("click", () => {
+      button.classList.add("clicked");
+
+      setTimeout(() => {
+        button.classList.remove("clicked");
+      }, 300);
+    });
+  });
 </script>
 
 <a
   {href}
+  bind:this={button}
   class:selected-route={isACtive}
   on:click={() => selectedRoute.update((s) => ({ ...s, selected: href }))}
 >
@@ -47,6 +60,20 @@
     animation: linear slide-in forwards 200ms;
     background: var(--horizontal-gradient);
     background-repeat: no-repeat;
+  }
+
+  :global(.clicked) {
+    animation: clicked-anim 0.3s forwards ease;
+  }
+
+  @keyframes clicked-anim {
+    from {
+      scale: 0.8;
+    }
+    to {
+      scale: 1;
+      background-color: #00000040;
+    }
   }
 
   @keyframes slide-in {
