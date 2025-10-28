@@ -1,6 +1,7 @@
 <script lang="ts">
   import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
   import Fa from "svelte-fa";
+  import { selectedRoute } from "../../lib/stores/activeRoute";
 
   export let heading: string;
   export let description: string;
@@ -8,7 +9,11 @@
   export let href: string;
 </script>
 
-<a {href}>
+<a
+  {href}
+  on:click={() =>
+    selectedRoute.update((s) => ({ ...s, selected: href.split("#")[0] }))}
+>
   <div class="card">
     <div class="description-wrapper">
       <span class="heading">{heading}</span>
