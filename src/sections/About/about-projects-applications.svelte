@@ -23,7 +23,7 @@
       linkLabel={$t(
         "sections.about.projects_and_applications.first_project.link_label",
       )}
-      imgPath={"/public/images/Odmaturuj.png"}
+      imgPath={"/images/Odmaturuj.png"}
     />
     <DetailedProjectCard
       heading={$t(
@@ -35,7 +35,7 @@
       linkLabel={$t(
         "sections.about.projects_and_applications.second_project.link_label",
       )}
-      imgPath={"/public/images/edugatto.png"}
+      imgPath={"/images/edugatto.png"}
     />
     <DetailedProjectCard
       heading={$t(
@@ -47,7 +47,7 @@
       linkLabel={$t(
         "sections.about.projects_and_applications.third_project.link_label",
       )}
-      imgPath={"/public/images/daizy.png"}
+      imgPath={"/images/daizy.png"}
     />
   </div>
 </section>
