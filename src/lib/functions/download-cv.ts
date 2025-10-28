@@ -2,7 +2,7 @@ import { locale } from "svelte-i18n";
 import { get } from "svelte/store";
 
 export function DownloadLocalCV(): void {
-  const filename: string = `/public/images/Orsah_cv_${get(locale)}.pdf`;
+  const filename: string = `/images/Orsah_cv_${get(locale)}.pdf`;
   console.log(filename);
 
   const link = document.createElement("a");
