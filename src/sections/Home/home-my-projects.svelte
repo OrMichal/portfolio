@@ -22,21 +22,21 @@
       <ProjectCard
         heading={$t("sections.home.projects.first_project.heading")}
         description={$t("sections.home.projects.first_project.desc")}
-        imagePath={"/public/images/Odmaturuj.png"}
+        imagePath={"/images/Odmaturuj.png"}
       />
     </a>
     <a href="https://github.com/OrMichal/Lingofish" target="_blank">
       <ProjectCard
         heading={$t("sections.home.projects.second_project.heading")}
         description={$t("sections.home.projects.second_project.desc")}
-        imagePath={"/public/images/Lingofish.png"}
+        imagePath={"/images/Lingofish.png"}
       />
     </a>
     <a href="https://github.com/OrMichal/AzylWeb" target="_blank">
       <ProjectCard
         heading={$t("sections.home.projects.third_project.heading")}
         description={$t("sections.home.projects.third_project.desc")}
-        imagePath={"/public/images/daizy.png"}
+        imagePath={"/images/daizy.png"}
       />
     </a>
   </div>
