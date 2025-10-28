@@ -28,11 +28,9 @@
           if (!e.isIntersecting) {
             navbar.classList.add("fixed-position");
             navbar.classList.remove("normal-position");
-            console.log("Navbar left view");
           } else {
             navbar.classList.remove("fixed-position");
             navbar.classList.add("normal-position");
-            console.log("Navbar entered view");
           }
         });
       },
@@ -72,9 +70,13 @@
         </div>
       </div>
       <div class="hamburger-links">
-        <HamburgerMenuLink href="/">{$t("nav.t_home")}</HamburgerMenuLink>
-        <HamburgerMenuLink href="/about">{$t("nav.t_about")}</HamburgerMenuLink>
-        <HamburgerMenuLink href="/projects"
+        <HamburgerMenuLink callback={switchMenuState} href="/"
+          >{$t("nav.t_home")}</HamburgerMenuLink
+        >
+        <HamburgerMenuLink callback={switchMenuState} href="/about"
+          >{$t("nav.t_about")}</HamburgerMenuLink
+        >
+        <HamburgerMenuLink callback={switchMenuState} href="/projects"
           >{$t("nav.t_projects")}</HamburgerMenuLink
         >
         <HamburgerMenuLink href="/cv">{$t("nav.t_cv")}</HamburgerMenuLink>

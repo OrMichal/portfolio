@@ -1,8 +1,9 @@
 <script lang="ts">
   export let href: string;
+  export let callback: any;
 </script>
 
-<a {href} class="link">
+<a {href} class="link" on:click={callback}>
   <slot>link</slot>
 </a>
 
